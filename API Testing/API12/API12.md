@@ -1,0 +1,12 @@
+API 12: DELETE Method for Verify Login
+Test Case ID: API-012
+Test Description: Verify the response when using DELETE method on the /api/verifyLogin endpoint.
+Test Steps:
+Send a DELETE request to /api/verifyLogin.
+Observe the response code and message.
+Expected Result:
+Response code: 200
+Message: "Account deleted!"
+Actual Result:
+{"responseCode": 200, "message": "Account deleted!"}
+Test Status: Pass

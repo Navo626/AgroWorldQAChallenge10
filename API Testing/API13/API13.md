@@ -1,0 +1,13 @@
+API 13: GET Request to Search Product
+Test Case ID: API-013
+Test Description: Verify the response when using a GET request instead of POST on /api/searchProduct.
+Test Steps:
+Send a GET request to /api/searchProduct.
+Observe the response code and message.
+Expected Result:
+Response code: 200
+Message: "User updated!"
+Actual Result:
+{"responseCode": 200, "message": "User updated!"}
+Test Status: Pass
+
